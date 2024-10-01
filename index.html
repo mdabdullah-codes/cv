@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    color: #333;
+}
+
+.resume-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    
+    color: #0a0a0a;
+    padding: 20px;
+    width: 300px;
+    min-height: 100%;
+}
+
+.sidebar .profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar .profile img {
+    width: 140px;
+    border-radius: 60%;
+    margin-bottom: 25px;
+}
+
+.sidebar .profile h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sidebar .profile p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8d99ae;
+}
+
+.sidebar .contact-info, .sidebar .skills, .sidebar .social {
+    margin-bottom: 10px;
+}
+
+.sidebar h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #121b1f;
+}
+
+.sidebar a {
+    color: #0a101a;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.section {
+    margin-bottom: 40px;
+}
+
+.section h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #2b2d42;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.job, .education-item {
+    margin-bottom: 20px;
+}
+
+.job h4, .education-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.time, .school {
+    font-size: 14px;
+    color: #8d99ae;
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <div class="sidebar">
+            <div class="profile">
+                <img src="images/file/1713090562521.jpg"  alt="Profile Picture">
+                <h2>Abdullah</h2>
+                <p>Full stack Web Developer</p>
+            </div>
+            <div class="contact-info">
+                <h3>Contact Info</h3>
+                <p><strong> <img src="images/file/download.png" width="20" height="20" ><strong>01963053035</strong>
+                <p><strong><img src="images/file/email.png" height="30" width="30"><strong>abdullahbba2003@gmail.com</strong>
+                <p><strong>Website:</strong> <a href="#"></a></p>
+                <p><strong>Location:</strong> Dhaka/Bangladesh</p>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <h3>Frontend Technologies:</h3>
+                <p>HTML,CSS,JavaScript,Bootstrap,
+                    HTMX</p>
+
+                <h4>Backend Technologies:</h4>  
+                <p>Python, Django, Flask</p>
+                <h4>Database Technologies:</h4>
+                <p>MYSQL, SQL, SQLite3, Posgresql</p>
+                   
+            </div>
+            <div class="language">
+                <h3>language </h3>
+                <p>Bangla/English</p>
+            </div>
+        </div>
+        
+        <div class="main-content">
+            <section class="section about">
+                <h3>About Me</h3>
+                <p> hey i'm Abdullah and i'm giving service of web design and development responsive websites on development Python Django, Flask, Django Rest-Framework, Vue js and bootstrap. My code is always SEO-friendly and clean code to ensure the east User Experience.</p>
+            </section>
+            
+            <section class="section experience">
+                <h3> Work Experience</h3>
+                <div class="job">
+                    <section class="section experience">
+                        <h4> Jan 2022 - Present</h3>
+                    <p> <a href="Mohuls Soft Limited">Mohuls Soft Limited</a> - Senior Software Engineer, Dhaka, Bangladesh
+                        Worked on large-scale software solutions for enterprise clients
+                        Collaborated with cross-functional teams to develop custom software applications
+                        Managed client communications and requirements to deliver tailored solutions
+                        Mentored junior developers and led training sessions
+                    <section class="section experience">
+                        <h4>Jul 2020 - Aug 2021</h3>
+                        Timmerman Industries - FMCG Sales Agent
+                        Visited corporate client offices to offer latest products
+                        Built relationships with clients to maintain sales goals and create new opportunities
+                    <section class="section experience">
+                        <h4> Aug 2019 - Jul 2020</h3>    
+                        Timmerman Industries - Sales Agent
+                        Visited corporate client offices to offer latest products</p>
+                </div>
+                <div class="job">
+                    <h3>Projects</h4>
+                    <h4>Review_Management</h4>
+                    <p>Developed a complete review management platform for businesses to generate, distribute,
+                         and redeem Review_Management, enabling online and offline promotions.
+                         The project involves a Python Django backend and an HTML/CSS/Bootstrap frontend.</p>
+                </div>
+                <div class="job">
+                    <h4>View project</h4>
+                    <h4>Best Online Earning</h4>
+                    <p>An online platform offering users various ways to earn money by completing tasks, 
+                        taking surveys, and engaging with brands. This project involved creating a secure and scalable platform using Python,
+                        Django, and MySQL with an intuitive frontend built using Bootstrap and JavaScript</p>
+                </div>
+            </section>
+            
+            <section class="section education">
+                <h3>Education</h3>
+                <div class="education-item">
+                    <h4>BA Honours - National University</h4>
+                    <h3>Completed Web Development in 10 Minute Program</h3>
+                    <h4>IT Program - IT Institute</h4>
+                </div>
+            </section>
+            
+            <section class="section hobbies">
+                <h3>Hobbies</h3>
+                <p>I enjoy hiking, photography, and exploring new web technologies during my free time.</p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
